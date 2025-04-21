@@ -1,0 +1,13 @@
+"/Applications/CLion 2024.2.2.app/Contents/bin/cmake/mac/x64/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Applications/CLion 2024.2.2.app/Contents/bin/ninja/mac/x64/ninja" -G Ninja -S /Users/gannonstoner/efficient-event-processing -B /Users/gannonstoner/efficient-event-processing/cmake-build-debug
+-- LLVM FileCheck Found: /usr/local/opt/llvm/bin/FileCheck
+-- Google Benchmark version: v1.8.4, normalized to 1.8.4
+-- Enabling additional flags: -DINCLUDE_DIRECTORIES=/Users/gannonstoner/efficient-event-processing/cmake-build-debug/_deps/benchmark-src/include
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES -- success
+-- Performing Test HAVE_STD_REGEX -- success
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Performing Test HAVE_PTHREAD_AFFINITY -- failed to compile
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/gannonstoner/efficient-event-processing/cmake-build-debug
